@@ -7,3 +7,4 @@ valem = (kroon * 15 + decimal(.64))
 eur = (kroon * valem)
 
 print("Sinu raha eurodes on " + eur)
+print("test")
