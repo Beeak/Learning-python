@@ -2,9 +2,7 @@ from decimal import Decimal
 import decimal
 
 
-kroon = decimal(input("Sisesta kroonid: "))
-valem = (kroon * 15 + decimal(.64))
-eur = (kroon * valem)
+kroon = input("Sisesta kroonid: ")
+valem = (kroon * 15.64)
 
-print("Sinu raha eurodes on " + eur)
-print("test")
+print("Sinu raha eurodes on " + valem)
