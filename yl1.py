@@ -2,7 +2,8 @@ from decimal import Decimal
 import decimal
 
 
-kroon = input("Sisesta kroonid: ")
-valem = (kroon * 15.64)
+kroon = int(input("Sisesta kroonid: "))
+valem = kroon / 15.6466
+eurrounded = round(valem)
 
-print("Sinu raha eurodes on " + valem)
+print(eurrounded, "eur")
