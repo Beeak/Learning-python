@@ -4,6 +4,6 @@ arv3 = int(input("Sisesta kolmas arv: "))
 
 arvud = (arv1, arv2, arv3)
 
-max = sorted(arvud)[-1]
+suur = sorted(arvud)[-1]
 
-print("Suurim arv on " + str(max))
+print("Suurim arv on " + str(suur))
