@@ -1,0 +1,5 @@
+tekst = str(input("Sisesta tekst: "))
+full1 = tekst.count("a", "e", "i")
+full2 = tekst.count("o", "u", "õ")
+full3 = tekst.count("ä", "ö", "ü")
+täishääikud = (full1 + full2 + full3)
