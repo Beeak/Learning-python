@@ -1,18 +1,18 @@
-puuviljad = ["õun", "pirn", "apelsin"]
-print(puuviljad[0])
+puuviljad1 = ["õun", "pirn", "apelsin"]
+print(puuviljad1[0])
 
-puuviljad = ["õun", "pirn", "apelsin", "sidrun"]
-print(puuviljad[3])
+puuviljad2 = ["õun", "pirn", "apelsin", "sidrun"]
+print(puuviljad2[3])
 
-puuviljad = ["õun", "pirn", "granaatõun", "sidrun"]
-print(puuviljad)
+puuviljad3 = ["õun", "pirn", "granaatõun", "sidrun"]
+print(puuviljad3)
 
-if ("õun") in puuviljad:
+if ("õun") in puuviljad3:
     print("Õun on listis")
 
-print(len(puuviljad))
+print(len(puuviljad3))
 
-puuviljad = ["pirn", "granaatõun", "sidrun"]
-puuviljad.reverse
-puuviljad.sort
-print(puuviljad)
+puuviljad4 = ["pirn", "granaatõun", "sidrun"]
+puuviljad4.reverse()
+puuviljad4.sort()
+print(puuviljad4)
