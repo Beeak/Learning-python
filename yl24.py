@@ -1,3 +1,7 @@
+upc_code = input("Enter UPC code you want to be confirmed: ")
+upc_confirmation = input("Enter UPC code you want to see the last digit in: ")
+
+
 def upc_check(code):
     check_code = list(code)[0:-1:1]
     check_digit = list(code)[-1]
@@ -12,5 +16,5 @@ def upc_find(check_code):
     print(check_code)
 
 
-print(upc_check("036000291452")[0])
-upc_find(upc_check("12345678910")[1])
+print(upc_check(upc_code)[0])
+upc_find(upc_check(upc_confirmation)[1])
