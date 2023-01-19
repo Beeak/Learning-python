@@ -1,35 +1,38 @@
 dictionary = {
-    "eesnimi": "Ford",
-    "perenimi": "Mustang",
-    "sünniaasta": 1964,
-    "elukoht": "USA",
-    "lemmikk magustoit": "küpsised"
+    "first-name": "Yes",
+    "last-name": "No",
+    "birth-year": 1964,
+    "living-place": "USA",
+    "favorite-dessert": "küpsised"
 }
 
-elukoht1 = dictionary.get("elukoht")
+place1 = dictionary.get("living-place")
 
-print(elukoht1)
-print(dictionary["elukoht"])
+print(place1)
+print(dictionary["living-place"])
 
+dictionary["favorite-dessert"] = "cookies"
 print(dictionary)
 
-isikukood = dictionary.get("isikukood")
-print(isikukood)
+if "personal-id" in dictionary:
+    print("personal-id is in dictionary")
+else:
+    print("personal-id is not in dictionary")
 
-print(len(dictionary))
+print("There are " + len(dictionary) + " items in the dictionary")
 
 dictionary = {
-    "eesnimi": "Ford",
-    "perenimi": "Mustang",
-    "sünniaasta": 1964,
-    "elukoht": "USA",
-    "lemmikk magustoit": "küpsised",
-    "pikkus": 1.8
+    "first-name": "Yes",
+    "lastname": "No",
+    "birth-year": 1964,
+    "living-place": "USA",
+    "favorite-dessert": "küpsised",
+    "height": 1.8
 }
 
 print(dictionary)
 
-del dictionary["sünniaasta"]
+del dictionary["birth-year"]
 dictionary.clear()
 
 print(dictionary)

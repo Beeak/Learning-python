@@ -1,5 +1,5 @@
 input_list = [line.split() for line in input(
-    'Enter the input >>> ').split('\n') if line]
+    'Enter the input: ').split('\n') if line]
 input_splice = input_list.index(['Expenses'])
 commissions = dict.fromkeys(input_list[1], 0)
 revenues = {elem[0]: {name: int(revenue) for name, revenue in zip(
