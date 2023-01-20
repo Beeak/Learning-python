@@ -12,6 +12,9 @@ print(place1)
 print(dictionary["living-place"])
 
 dictionary["favorite-dessert"] = "cookies"
+for k, v in dictionary.items():
+    print(k, v)
+
 print(dictionary)
 
 if "personal-id" in dictionary:
