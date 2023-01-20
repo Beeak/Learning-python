@@ -6,33 +6,33 @@ dictionary = {
     "favorite-dessert": "küpsised"
 }
 
+print("-------------------")
+
 place1 = dictionary.get("living-place")
 
 print(place1)
 print(dictionary["living-place"])
 
+print("-------------------")
+
 dictionary["favorite-dessert"] = "cookies"
 for k, v in dictionary.items():
     print(k, v)
 
-print(dictionary)
+print("-------------------")
 
 if "personal-id" in dictionary:
     print("personal-id is in dictionary")
 else:
     print("personal-id is not in dictionary")
 
+print("-------------------")
+
 print("There are " + str(len(dictionary)) + " items in the dictionary")
 
-dictionary = {
-    "first-name": "Yes",
-    "lastname": "No",
-    "birth-year": 1964,
-    "living-place": "USA",
-    "favorite-dessert": "küpsised",
-    "height": 1.8
-}
+print("-------------------")
 
+dictionary["height"] = "1.80"
 print(dictionary)
 
 print("-------------------")
