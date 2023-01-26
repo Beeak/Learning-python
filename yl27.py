@@ -28,7 +28,7 @@ commonWords = {'ja', 'mis', 'oli', 'ma',
                'all', 'when', 'had', 'see', 'his', 'him', 'who', 'by', 'her', 'she', 'our', 'thing', '-',
                'now', 'what', 'going', 'been', 'we', "I'm", 'than', 'any', 'because', 'We', 'even',
                'said', 'only', 'want', 'other', 'into', 'He', 'what', 'i', 'That', 'thought',
-               'think', "that's", 'Is', 'much', 'Ma', 'veel', 'ta', 'nagu', 'ikka', 'See', 'selle', 'kes', 'või', 'nad', 'ole', 'mingi', 'seal', 'juba', 'oleks', 'väga', 'ära', 'siin', 'midagi', 'sa', 'saab', 'kas', 'need', 'Kui', 'kõik', 'ning', 'Kas', 'seda', 'pole', 'palju', 'küll', 'sest', 'ju', 'kus', 'mitte', 'peale', 'saa'}
+               'think', "that's", 'Is', 'much', 'Ma', 'veel', 'ta', 'nagu', 'ikka', 'See', 'selle', 'kes', 'või', 'nad', 'ole', 'mingi', 'seal', 'juba', 'oleks', 'väga', 'ära', 'siin', 'midagi', 'sa', 'saab', 'kas', 'need', 'Kui', 'kõik', 'ning', 'Kas', 'seda', 'pole', 'palju', 'küll', 'sest', 'ju', 'kus', 'mitte', 'peale', 'saa', 'neid', 'kuidas', 'mida', 'ise', 'olen'}
 
 for submission in subreddit.top(limit=500):
     submission.comments.replace_more(limit=0)
